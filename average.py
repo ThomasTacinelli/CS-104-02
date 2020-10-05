@@ -12,7 +12,7 @@ numberofScores= int(input ("Please enter the number of scores you want to averag
 while (scoreCount < numberofScores):
     score= int(input ("Please enter a score:"))
     total= total + score
-    scoreCount = scoreCount + 1
+    scoreCount = scoreCount + 1 
 
 #Average is needed to be casted as a string 
 average= total / numberofScores
